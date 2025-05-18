@@ -8,7 +8,7 @@ Installation der Anwendung
 
 Voraussetzungen installieren
     • Git https://git-scm.com/downloads
-    • Node.js  und npm
+    • Node.js  und npm tested v22
       https://nodejs.org/en/download
       
 1. Download des Projektes
@@ -37,8 +37,9 @@ Application Installation
 Install prerequisites
 
     • Git https://git-scm.com/downloads
-    • Node.js and npm
-            https://nodejs.org/en/download
+    
+    • Node.js and npm  tested v22 https://nodejs.org/en/download
+    
     1. Download the project
      
        git clone https://github.com/TraineeIT221/Wertpapier-Analyst.git

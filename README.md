@@ -1,87 +1,61 @@
-# Welcome to React Router!
+Wertpapier Analyst
 
-A modern, production-ready template for building full-stack React applications using React Router.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+Diese Anwendung ist dazu entwickelt worden. Dem User eine angenehme Darstellung seiner Finanzgeschäfte zu ermöglichen. Dabei lassen sich die Wertpapiere. Hierbei kann zwischen Wertpapier Typ und Risiko des Papiers unterscheiden.
 
-## Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+Installation der Anwendung
 
-## Getting Started
+Voraussetzungen installieren
+    • Git https://git-scm.com/downloads
+    • Node.js  und npm
+      https://nodejs.org/en/download
+      
+1. Download des Projektes
 
-### Installation
+git clone https://github.com/TraineeIT221/Wertpapier-Analyst.git
 
-Install the dependencies:
+2. In das Projektverzeichnis wechseln
 
-```bash
-npm install
-```
+   cd Wertpapier-Analyst
 
-### Development
+3. Abhängigkeiten installieren
 
-Start the development server with HMR:
+    npm install
 
-```bash
-npm run dev
-```
+4. Entwicklungsserver starten
 
-Your application will be available at `http://localhost:5173`.
+    npm run dev
 
-## Building for Production
+5.  App im Browser öffnen
 
-Create a production build:
+    Öffne den Browser und rufe http://localhost:5173 auf.
 
-```bash
-npm run build
-```
+--------------------------------------------------------------------------------------------------------------
+Application Installation
 
-## Deployment
+Install prerequisites
 
-### Docker Deployment
+    • Git https://git-scm.com/downloads
+    • Node.js and npm
+            https://nodejs.org/en/download
+    1. Download the project
+     
+       git clone https://github.com/TraineeIT221/Wertpapier-Analyst.git
+    2. Change into the project directory
+     
+       cd Wertpapier-Analyst
 
-To build and run using Docker:
+    3. Install dependencies
+     
+       npm install
 
-```bash
-docker build -t my-app .
+    4. Start the development server
+   
+       npm run dev
 
-# Run the container
-docker run -p 3000:3000 my-app
-```
+    5. Open the app in your browser
 
-The containerized application can be deployed to any platform that supports Docker, including:
+        Open your browser and navigate to http://localhost:5173.
 
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
 
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
